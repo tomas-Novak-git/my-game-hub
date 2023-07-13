@@ -12,6 +12,7 @@ interface Props {
 const GameCard = ({ game }: Props) => {
   return (
     <Card
+      width='300px'
       borderRadius={"10px"}
       overflow='hidden'
     >
